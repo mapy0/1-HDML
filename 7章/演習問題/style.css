@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/mv.jpg);
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 20px;
+}
+
+.heading {
+  color: black;
+  display: flex;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.introduce {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.introduce-text {
+  width: 840px;
+  text-align: left;
+  border-bottom: 1px solid #d1d1d1;
+  padding-bottom: 30px;
+}
+
+main {
+  margin-bottom: 50px;
+}
